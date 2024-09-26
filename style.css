@@ -1,0 +1,42 @@
+ .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.logo {
+    width: 200px;
+    margin: 5px 0 10px 60px;
+}  
+.content form {
+    margin-left: 50px;
+}
+#pokemonCard {
+    width: 300px;
+    min-height: 400px;
+    background-color: lightgray;
+    margin: 20px 0;
+    border: solid black 8px;
+    border-radius: 10px;  
+}
+#pokemonCard h1{
+    font-size: 20px;
+    padding-left:20px ;
+}
+#pokemonCard .pokemonImage{
+    font-size: 20px;
+    padding-left:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    background-color: white;
+}
+#pokemonCard p{
+    font-weight: bold;
+    padding:0 10px;
+}
+#pokemonCard span{
+    font-weight: normal;
+}
